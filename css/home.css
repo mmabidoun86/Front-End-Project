@@ -1,0 +1,113 @@
+* a {
+    cursor: pointer;
+}
+.opay {
+background-color: white;
+height: 10vh;
+position: relative;
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 7;
+}
+
+.div-parents {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 40px;
+    padding-bottom: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+    position: relative;
+    bottom: 30px;
+
+}
+
+#div1 {
+    margin-right: 40%;
+    
+   
+}
+
+#div2 a {
+    text-decoration: none;
+    color: #1fc69d;
+}
+
+#div3 a {
+    text-decoration: none;
+    color: black;
+}
+
+#div4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec {
+    width: 100%;
+    position: relative;
+    top: 4rem;
+
+    
+}
+
+.sec div:nth-of-type(2) {
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1fc69d ;
+    /* top: ; */
+    /* left: 20px; */
+}
+
+.sec div:nth-of-type(2) span {
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+    position: relative;
+    font-size: 50px;
+    color: #02106d;
+    
+}
+
+#index img {
+    z-index: 1;
+    position:absolute;
+}
+
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    margin-top: 2%;
+    justify-content: space-between;
+    
+}
+
+.inline:nth-last-of-type(1) img {
+    margin-top: 30%;
+}
+
+#ndc img {
+    margin-bottom: 30%;
+    margin-left: 20%;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 0%;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
